@@ -208,3 +208,31 @@ body {
   opacity: 0.6;
   font-size: 0.75rem;
 }
+.footer  {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  height: 25%;
+  width: 90%;
+  border-top: 1px solid #404040;
+  opacity: 0.6;
+  padding-top: 1rem;
+}
+.left-margin {
+  margin-left: 3rem;
+}
+.music-player {
+  display: flex;
+}
+.album {
+  width: 28%;
+}
+.player {
+  width: 44%;
+}
+.controls {
+  width: 28%;
+}
