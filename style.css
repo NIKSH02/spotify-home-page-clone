@@ -18,11 +18,12 @@ body {
   height: 100vh;
   background-color: #121212;
   flex: 1;
+  overflow: scroll;
   border-radius: 1rem;
   margin-left: 0.5rem;
   border-radius: 1rem;
   padding: 0 1.5rem 0 1.5rem;
-  overflow: scroll;
+  
 }
 .music-player {
   background-color: black;
@@ -177,6 +178,21 @@ body {
 }
 @media (max-width: 1090px) {
   .hide2 {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .hide4 {
+    width: 7rem;
+  }
+}
+@media (max-width: 400px) {
+  .hide3 {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .sidebar {
     display: none;
   }
 }
