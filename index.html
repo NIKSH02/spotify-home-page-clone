@@ -152,7 +152,18 @@
        </div>
     </div>
     <div class="music-player">
-      <div class="album"></div>
+      <div class="album">
+        <div class="albm-i">
+          <img class="album-img" src="./assets/card5img.jpeg" alt="">
+        </div>
+        <div class="albm-a">
+          <p class="album-a-title">Still Rollin </p>
+          <p class="album-a-info">Shubh</p>
+        </div>
+        <span class="material-symbols-outlined">
+          add_circle
+        </span>   
+      </div>
       <div class="player">
         <div class="playback-control">
           <img src="./assets/player_icon1.png" alt="icon" class="player-control-icon">
@@ -169,27 +180,28 @@
         </div>
       </div>
       <div class="controls">
-        <span class="material-symbols-outlined">
-        playing_cards</span>      
-        <lord-icon
-            src="https://cdn.lordicon.com/cpmcynxu.json"trigger="hover"stroke="light"
-            colors="primary:#ffffff,secondary:#16c72e"
-            style="width:2rem;">
-        </lord-icon>
-        <span class="material-symbols-outlined">queue_music
-        </span>
-        <script src="https://cdn.lordicon.com/lordicon.js"></script>
-        <lord-icon
-            src="https://cdn.lordicon.com/jbsedsma.json"
-            trigger="hover"
-            stroke="bold"
-            colors="primary:#ffffff,secondary:#16c72e"
-            style="width:2rem;">
-        </lord-icon>
-        <span class="material-symbols-outlined">
-        volume_down
-        </span>
-        <input type="range" class="progress-bar-mute" min="0" max="100" step="1">
+        <div class="div-controls">
+          <span class="material-symbols-outlined" style="margin-right: 0.2rem;">
+            playing_cards</span>      
+            <lord-icon style="margin-right: 0.2rem;"
+                src="https://cdn.lordicon.com/cpmcynxu.json"trigger="hover"stroke="light"
+                colors="primary:#ffffff,secondary:#16c72e"
+                style="width:2rem;">
+            </lord-icon>
+            <span style="margin-right: 0.3rem;" class="material-symbols-outlined">queue_music
+            </span>
+            <lord-icon style="margin-right: 0.3rem;"
+                src="https://cdn.lordicon.com/jbsedsma.json"
+                trigger="hover"
+                stroke="bold"
+                colors="primary:#ffffff,secondary:#16c72e"
+                style="width:1.5rem;">
+            </lord-icon>
+            <span style="margin-right: 0.3rem;" class="material-symbols-outlined">
+            volume_down
+            </span>
+            <input style="margin-right: .3rem;" type="range" class="p-b-mute" min="0" max="100" step="1">
+        </div>
       </div>
     </div>
     <script src="https://cdn.lordicon.com/lordicon.js"></script>
